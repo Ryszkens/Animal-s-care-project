@@ -1,0 +1,15 @@
+@use "./colors" as *;
+
+.wypych-info {
+	padding: 2em;
+
+	p {
+		margin-bottom: 2em;
+		letter-spacing: 0.2rem;
+	}
+
+	p:last-child,
+	p:nth-child(3) {
+		color: $orange;
+	}
+}
